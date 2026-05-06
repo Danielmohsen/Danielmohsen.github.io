@@ -3,12 +3,29 @@ body{
 }
 
 .topnav{
-    background-color: #225757;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #011638;
+    border-radius: 15px; 
     overflow: hidden;
+    padding: 0 8px;
 }
 
-.topnav a{
-    float: left;
+.logo {
+    color: #f2f2f2;
+    font-size: 17px;
+    font-weight: 700;
+    padding: 14px 16px;
+    white-space: nowrap;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav-links a {
     color: #f2f2f2;
     text-align: center;
     padding: 14px 16px;
@@ -16,12 +33,22 @@ body{
     font-size: 17px;
 }
 
-.topnav a:hover{
+.nav-links a:hover {
     background-color: #ddd;
     color: black;
 }
 
-.topnav a.active{
+.nav-links a.active {
     background-color: #04AA6D;
     color: white;
 }
+
+/*
+Colour palette: #DCF1FF, #73A1CA, #5881AA, #3C5F85, #384553
+*/
+
+/*
+Colour palett: #DCF1FF, #73A1CA, #5881AA, #3C5F85, #384553
+
+
+*/
